@@ -1,0 +1,16 @@
+const int bits_in_byte = 8;
+num_word = ( u % sizeof(unsigned)*bits_in_byte == 0 ) ? 
+  u/sizeof(unsigned)*bits_in_byte : 
+    u/sizeof(unsigned)*bits_in_byte + 1
+
+
+
+stdin <- keyboard (default)
+stdout <- screen (default); buffered; e.g., just print to screen - could be divered to an alternative output source. 
+stderr <- screen (default); not buffered; e.g., write to file. Output immediately. 
+
+To debug:
+fprintf( stderr, <all the usual code> );
+
+fgets( line, MAX_LENGTH-1, stdin );
+
