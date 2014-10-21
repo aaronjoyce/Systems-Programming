@@ -1,0 +1,13 @@
+{23, 13. 18, 25, 6, 19, 22, 14, 9, 6}
+Let's say we want to remove item '6'. 
+
+Could use a tombstone - something once contained something, but not it's empty - not applicable to integers. The null value ref. 
+could be used as a tombstone, though. 
+
+Pointers: Null (a pointer tombstone)
+
+Solution: 
+
+Swap 6 with 22, and reduce the size of the array by 1. 
+Could not swap - just a copy. 
+
